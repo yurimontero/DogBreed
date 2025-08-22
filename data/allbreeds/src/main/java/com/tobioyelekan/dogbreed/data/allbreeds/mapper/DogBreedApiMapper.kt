@@ -8,7 +8,7 @@ fun Map.Entry<String, List<String>>.toEntity(
     return DogBreedEntity(
         name = this.key,
         imageUrl = imageUrl,
-        subBreeds =this.value,
+        subBreeds = this.value,
         isFavorite = false
     )
 }

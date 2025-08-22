@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.jetbrains.kotlin.serialization)
     alias(libs.plugins.ksp)
     alias(libs.plugins.dagger.hilt)
 }
@@ -48,12 +49,10 @@ android {
 dependencies {
     implementation(libs.retrofit.core)
     implementation(libs.retrofit.kotlin.serialization)
-    implementation(libs.retrofit.scalars)
 
     implementation(libs.kotlin.serialization)
 
     implementation(libs.logging.interceptor)
-    implementation(libs.timber)
 
     implementation(libs.hilt.core)
     implementation(libs.hilt.android.testing)

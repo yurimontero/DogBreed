@@ -1,9 +1,9 @@
 package com.tobioyelekan.dogbreed.data.allbreeds.repository
 
 import com.tobioyelekan.dogbreed.core.database.dao.DogBreedDao
-import com.tobioyelekan.dogbreed.core.network.DogBreedApiService
 import com.tobioyelekan.dogbreed.core.database.entity.toDomainModel
 import com.tobioyelekan.dogbreed.core.model.DogBreed
+import com.tobioyelekan.dogbreed.core.network.DogBreedApiService
 import com.tobioyelekan.dogbreed.data.allbreeds.mapper.toEntity
 import com.tobioyelekan.dogbreed.data.allbreeds.util.mergeEntities
 import kotlinx.coroutines.async

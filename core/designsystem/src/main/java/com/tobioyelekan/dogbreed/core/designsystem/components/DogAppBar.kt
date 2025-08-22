@@ -60,7 +60,7 @@ fun DogAppBar(
 fun PreviewDogAppBar() {
     DogAppBar(
         title = "Some title",
-        onBackClicked = { /*TODO*/ },
+        onBackClicked = { },
         actions = {
             IconButton(onClick = {}) {
                 Icon(
@@ -69,6 +69,5 @@ fun PreviewDogAppBar() {
                 )
             }
         }) {
-
     }
 }
